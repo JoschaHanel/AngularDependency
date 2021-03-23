@@ -8,8 +8,8 @@ The WomDSimulation.cpp file does not require the RootReader, but **does** requir
 # How to use
 The WomDSimulation.cpp file can be compiled and run by executing the WomDSimulation.sh script. This is independent of the RootReader, but does require an installation of ROOT. For all other files, do the following:
 
-Once ROOT is installed and the RootReader is set up, go to the RootReader/src directory. There, replace ```the read.C``` file by the file of the same name provided in this repository. This should work as of march 2021. If the RootReader has since been updated, instead copy the parts from the file provided here which are commented with "JOSCHA", and insert them in the right places of the RootReader's ```read.C``` file.
+Once ROOT is installed and the RootReader is set up, go to the RootReader/src directory. There, replace the ```read.C``` file by the file of the same name provided in this repository. This should work as of march 2021. If the RootReader has since been updated, instead copy the parts from the file provided here which are commented with "JOSCHA", and insert them in the right places of the RootReader's ```read.C``` file.
 
 Once this is done, use the RootReader as usual.
 
-Now, you can run the PhotonCountDistribution.sh file, which will compile and run the corresponding .cpp file. This program generates .txt files which are needed to run AngularDistribution.sh (which compiles and runs AngularDistribution.cpp) and MeanAngles.sh (which compiles and runs MeanAngles.cpp).
+Now, you can run the ```PhotonCountDistribution.sh``` file, which will compile and run the corresponding ```.cpp``` file. This program generates ```.txt``` files which are needed to run ```AngularDistribution.sh``` (which compiles and runs ```AngularDistribution.cpp```) and ```MeanAngles.sh``` (which compiles and runs ```MeanAngles.cpp```).
